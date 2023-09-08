@@ -77,7 +77,7 @@ No test are available
 
 ### :rocket: Live-Demo
 
-- [Live-Demo](https://github.com/tasnimchy96/Leaderboard-App.github.io/dist)
+- [Live-Demo](https://tasnimchy96.github.io/Leaderboard-App.github.io/dist/)
 
 ## :busts_in_silhouette: Authors
 
