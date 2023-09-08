@@ -1,172 +1,109 @@
+# :green_book: Table of Contents
 
-
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+- [:book: About the Project](#about-project)
+  - [:hammer_and_wrench: Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
+- [:computer: Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+  - [Project-Presentation](#project-presentation)
+  - [Live-Demo](#live-demo)
+- [:busts_in_silhouette: Authors](#authors)
+- [:telescope: Future Features](#future-features)
+- [:handshake: Contributing](#contributing)
+- [:star:️ Show your support](#support)
+- [:pray: Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+# :book: [Leaderboard]
 
-# 📖 Set up Webpack <a name="about-project"></a>
-**Set up Webpack** is a application to organize books
-## 🛠 Built With <a name="built-with"></a>
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score.
 
-- ✅ HTML
-- ✅ CSS
-- ✅ JavaScript
-- ✅ Git
-- ✅ Github.
-- ✅ Linters
-- ✅ Webpack library
 
-### Tech Stack <a name="tech-stack"></a>
+## :hammer_and_wrench: Built With
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
+### Tech Stack
 
-  </ul>
-</details>
+**Client**
+HTML, CSS and Javascript
 
-### Key Features <a name="key-features"></a>
+### Key Features
 
- - Added index.html file.
- - Added style.css file.
- - Added javascript file.
- - Added check errors with linters 
- - Added webpack package
+- **[- Use Javascript, HTML & CSS linters]**
+- **[- Build a basic website that allows users to add name and score to the list.]**
+- **[- Used JavaScript objects and arrays.]**
+- **[- Dynamically modified the DOM and add basic events.]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
- 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link]()
-
-## 💻 Getting Started <a name="getting-started"></a>
-
+## :computer: Getting Started
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-1. web browser.
-2. Code editor.
-3. Git-smc 
+In order to run this project you need a web browser, node, npm and an IDE like VS Code should be installed in your computer.
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-Run this command:
+Open Terminal & Clone this repository to your desired folder:
 
 ```sh
-  cd my-folder
-  git clone https://github.com/tasnimchy96/setup-webpack
-
+cd <path-to-the-folder>
+git clone https://github.com/tasnimchy96/Leaderboard-App.github.io.git
+cd Leaderboard-App.github.io.git
+code .
+```
 ### Install
 
-Install this project with:
-
-Run this command:
+Install this project using the cloned repo or download and use the files to your local machine.
 
 ```sh
-  cd my-project
-  npm install
+cd <path-to-the-cloned-repo>
+code .
 ```
 ### Usage
 
-To run the project, execute the following command:
-
-Open index.html using live server extension.
+To run the project open the index.html file in your web browser or you can also open live server from the IDE.
 
 ### Run tests
-```sh
-  npm init -y
-  npm install --save-dev hint@7.x
-```
-### Deployment
 
-You can deploy this project using:
+No test are available
 
+### Project-Presentation
+- We will add it later.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### :rocket: Live-Demo
 
-<!-- AUTHORS -->
+- [Live-Demo](https://github.com/tasnimchy96/Leaderboard-App.github.io.git/dist)
 
-## 👥 Authors <a name="authors"></a>
+## :busts_in_silhouette: Authors
 
-👤 Tasnim Ahmed Chowdhury
+:bust_in_silhouette: **Tasnim Ahmed Chowdhury**
 
 - GitHub: [@tasnimchy96](https://github.com/tasnimchy96)
 - Twitter:[@tasnimchy96](https://twitter.com/tasnimchy96)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tasnim-ahmed-chowdhury-b4504625b)
 
+## :telescope: Future Features
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [ ] **[Make an atractive Layout]**
+- [ ] **[Add some Javascript]**
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Show added book list**
-- **Remove book from the list**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
+## :handshake: Contributing
 
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## :star:️ Show your support
 
-<!-- SUPPORT -->
+If you like this project feel free to share with your friends.
 
-## ⭐️ Show your support <a name="support"></a>
+## :pray: Acknowledgments
 
-
-If you like this project just give it a star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
+I would like to thank Microverse for this amazing exercise.
 
 ## 📝 License <a name="license"></a>
-
-This project is [MIT](./MIT.md) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+This project is [MIT](./LICENSE.md) licensed.
