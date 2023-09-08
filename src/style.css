@@ -1,14 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
-h1 {
-  color: blueviolet;
-  margin: 100px  600px;
+body {
+  margin: 30px;
 }
 
-h1:hover {
-  color: black;
+header {
+  font-size: 30px;
+}
+
+.score-board {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.refresh-score {
+  display: flex;
+  gap: 50px;
+}
+
+#refresh-btn {
+  background: none;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.scores {
+  border: 2px solid #000;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.scores > li {
+  padding: 5px;
+}
+
+.scores > li:nth-child(even) {
+  background-color: #a6a6a6;
+}
+
+#add-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 5px;
+  font-weight: 700;
 }
