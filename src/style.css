@@ -9,6 +9,9 @@
 
 body {
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -16,10 +19,17 @@ header {
 }
 
 .score-board {
+  margin-top: 30px;
+  width: 75%;
+  background-color: rgb(129, 250, 250);
   padding: 40px;
   display: flex;
-  justify-content: center;
-  gap: 100px;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 .refresh-score {
@@ -27,34 +37,55 @@ header {
   gap: 50px;
 }
 
-#refresh-btn {
+button {
   background: none;
   padding: 5px;
   font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: white;
+  -webkit-transition: background-color 100ms ease-in;
+  -ms-transition: background-color 100ms ease-in;
+  transition: background-color 100ms ease-in;
 }
 
 .scores {
   border: 2px solid #000;
+  border-radius: 10px;
   margin-top: 20px;
   list-style: none;
 }
 
 .scores > li {
   padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .scores > li:nth-child(even) {
   background-color: #a6a6a6;
 }
 
+.add-score{
+  width: 50%;
+}
+
 #add-form {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
+  align-items: end;
   gap: 15px;
 }
 
 input {
   padding: 5px;
   font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
 }
