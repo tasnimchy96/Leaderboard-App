@@ -26,6 +26,7 @@ header {
   display: flex;
   justify-content: space-around;
   border-radius: 20px;
+  height: 450px;
 }
 
 h2 {
@@ -60,7 +61,7 @@ button:hover {
   list-style: none;
   overflow: hidden;
   overflow-y: scroll;
-  height: 30%;
+  height: 80%;
 }
 
 .scores::-webkit-scrollbar {
